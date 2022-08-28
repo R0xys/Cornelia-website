@@ -1,0 +1,757 @@
+@import url(reset.css);
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+body._lock {
+    overflow: hidden;
+}
+ .container {
+    max-width: 1252px;
+    margin: 0px auto;
+    padding: 0px 10px;
+ }
+
+.header__container {
+    padding: 17px 5%;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    z-index: 5;
+}
+
+.header__logo-item { 
+    font-family: 'Motter Corpus Std', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #0B4141;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__menu a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #0B4141;
+    margin: 0px 24px 0px 0px;
+}
+
+.header__menu :last-child {
+    margin: 0px 48px 0px 0px;
+}
+.header__menu :hover {
+    color: #0b4141b4;
+}
+.header__button-item {
+    padding: 12px 40px;
+    background-color: #0B4141;
+    border-radius: 124px;
+    color: #FFCCBC;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.header__button-item:hover {
+    background-color: #0f5555;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.main__container {
+    margin: 10px 0px 0px 0px;
+}
+
+.page-first {
+    background: url(../img/Backgrounds/confettis.png) center / auto 100% no-repeat;
+}
+
+.title-container {
+    margin: 0px auto;
+    max-width: 768px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.page-first__title {
+    font-family: 'Motter Corpus Std', sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+}
+
+.page-first__title-item {
+    line-height: 128px;
+    color: #FFCCBC;
+    position: relative;
+    top: 110px;
+    z-index: 0;
+}
+
+.page-first__wrapper {
+    background: url(../img/Unicorns/unicorn.png) center bottom/ auto 100% no-repeat;
+    min-height: 585px;
+    padding-top: 98px;
+    position: relative;
+    z-index: 2;
+}
+
+.page-first__title-item_black {
+    background: linear-gradient(180deg, #0B4141 45.83%, #0B1F1F 45.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.page-second {
+    padding: 196px 0px;
+    background: #FFCCBC url(../img/Backgrounds/ponies.png) center / auto 100% no-repeat;;
+}
+
+.page-second__title-item {
+    font-family: 'Motter Corpus Std', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #FFFFFF;
+    line-height: 96px;
+}
+
+.page-second__paragraphs-item {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.page-second__bold {
+    font-weight: 900;
+}
+
+.page-third {
+    background: #0B4141;
+}
+
+.page-third__container {
+    padding: 0px 0px 0px 5%;
+}
+
+.page-third__info {
+    color: #FFCCBC;
+    max-width: 700px;
+}
+
+.page-third__title {
+    padding: 118px 0px 32px 0px;
+}
+
+.page-third__title-item {
+    font-family: "Sans", sans-serif;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 72px;
+}
+
+.page-third__paragraph {
+    margin: 0px 0px 52px 0px
+}
+
+.page-third__paragraph-item {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.page-third__button {
+    margin: 0px 0px 100px 0px;
+    min-width: 300px;
+}
+
+.page-third__button-item {
+    font-weight: 700;
+    font-size: 18px;
+    border: 2px solid #FFCCBC;
+    padding: 14px 31px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.page-third__media {
+    text-align: right;
+    height: 100%;
+    flex: 0 0 auto;
+    align-self: flex-end;
+    margin: 0px 0px 0px 70px;
+}
+
+.page-third__img-unicorn {
+    position: relative;
+    top: 6px;
+    padding: 189px 0px 0px 0px;
+}
+
+.page-fourth__container:nth-child(1) {
+    padding-top: 190px;
+}
+
+.page-fourth__section {
+    padding: 0px 0px 190px 0px;
+}
+
+.page-fourth__flex-row {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.page-fourth__media {
+    min-width: 300px;
+    flex: 0 1 auto;
+}
+
+.page-fourth__img-unicorn_pink {
+    padding: 0px 30px 0px 0px;
+}
+
+.page-fourth__img-unicorn_green {
+    padding: 0px 0px 0px 30px;
+}
+
+.page-fourth__flex-wrapper {
+    max-width: 450px;
+    flex: 0 2 auto;
+}
+
+.page-fourth__title {
+    font-family: "Sans", sans-serif;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 72px;
+    padding: 0px 0px 32px 0px;
+}
+
+.page-fourth__title-item {
+    color: #FFCCBC;
+}
+
+.page-fourth__title-item_green {
+    color: #0B4141;
+}
+
+.page-fourth__paragraph-item {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0B4141;
+}
+
+.page_fourth__paragraph-item_scroll {
+    font-weight: 600;
+    font-size: 16px;
+    color: #0B4141;
+    padding: 49px 0px 0px 0px;
+}
+
+.page_fourth__paragraph-item_scroll::before {
+    content: url(../img/Icons/mouse.svg);
+    position: relative;
+    right: 13px;
+    top: 6px;
+    padding: 0px 0px 0px 13px;
+}
+
+.page-fifth {
+    text-align: center;
+    background:  rgba(245, 245, 245, 0.6) url(../img/Unicorns/many_uni.png) bottom / 100% auto no-repeat;
+    min-height: 800px;
+}
+
+.page-fifth__title {
+    padding: 117px 0px 0px 0px;
+}
+
+.page-fifth__title-item {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    font-family: 'Motter Corpus Std', sans-serif;
+    color: #FFCCBC;
+}
+
+.page-fifth__paragraph {
+    padding: 0px 100px 30%;
+    font-weight: 400;
+    color: #0B4141;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.page-fifth__bold {
+    font-weight: 900;
+}
+
+.page-fifth__paragraph-item {
+    padding: 24px 0px 0px 0px;
+}
+
+.page-sixth {
+    background: linear-gradient(0deg, rgba(255,255,255,0) 22%, rgba(255,204,188,1) 100%), url(../img/Backgrounds/Cornelia_Confettis.png) center / auto 100% no-repeat, url(../img/Backgrounds/Rectangle\ 11.png) bottom / auto auto no-repeat;
+}
+
+.page-sixth__title {
+    padding: 64px 0px;
+    text-align: center;
+}
+
+.page-sixth__title-item {
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 72px;
+    color: #FFFFFF;
+    font-family: "Sans", sans-serif;
+}
+
+.page-sixth__flex-row_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-sixth__flex-item {
+    background: white;
+    margin: 24px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #0B4141;
+    max-width: 400px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.page-sixth__text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.page-sixth__main-flex-row {
+    display: flex;
+    justify-content: center;
+}
+
+.page-sixth__flex-row {
+    display: flex;
+    padding: 16px 0px 0px 0px;
+}
+
+.page-sixth__media {
+    margin: 0px 12px 0px 0px;
+    flex: 0 0 auto;
+}
+
+.page-sixth__user-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.page-sixth__user-work {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.page-sixth__spoiler {
+    display: none;
+    text-align: center;
+}
+
+.page-sixth__more {
+    font-weight: 800;
+}
+
+.page-sixth__arrow {
+    margin-top: -6px;
+    transform: rotate(180deg);
+    height: 20px;
+}
+
+.page-seventh {
+    background: linear-gradient(149deg, rgba(255,255,255,0) 69%, rgba(255,231,223,1) 100%), url(../img/Backgrounds/confettis.png) center / auto 100% repeat;
+}
+
+.page-seventh__section {
+    margin: 200px 0px 0px 0px;
+}
+
+.page-seventh__flex-row {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.page-seventh__media {
+    flex: 0 1 auto;
+}
+
+.page-seventh__img-circles {
+    margin: 0px 30px 30px 0px;
+}
+
+.page-seventh__info {
+    color: #0B4141;
+    max-width: 550px;
+}
+
+.page-seventh__title {
+    padding: 0px 0px 32px 0px;
+}
+
+.page-seventh__title-item {
+    font-family: "Sans", sans-serif;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 72px;
+}
+
+.page-seventh__paragraph {
+    padding: 0px 0px 57px 0px;
+}
+
+.page-seventh__paragraph-item {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.page-seventh__button-item {
+    font-weight: 700;
+    font-size: 18px;
+    border: 2px solid #0B4141;
+    padding: 14px 31px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.page-seventh__icon {
+    text-align: center;
+    margin: 0px 0px 60px 0px;
+}
+
+.page-seventh__bold {
+    font-weight: 900;
+}
+
+.page-seventh__img-unicorn {
+    position: relative;
+    top: 6px;
+    margin-left: 30px;
+}
+
+.footer {
+    background: #0B4141;
+    color: #FFCCBC;
+}
+
+.footer__container {
+    padding: 236px 10px 100px 10px;
+}
+
+.footer__title-container {
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.footer__title {
+    padding: 0px 0px 60px;
+}
+
+.footer__title-item {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    font-family: 'Motter Corpus Std', sans-serif;
+}
+
+.footer__flex-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.footer__flex-wrapper a:nth-child(1){
+    margin-right: 15px;
+    padding: 11px 38px 21px;
+}
+
+.footer__flex-wrapper a:nth-child(2){
+    margin-left: 15px;
+}
+
+.footer__button-item {
+    display: inline-block;
+    padding: 11px 30px 21px;
+    border-radius: 300px;
+    border: 2px solid #FFCCBC;
+}
+
+.footer__button a:nth-child(1)::before {
+    content: url(../img/Icons/Figma-logo\ 1.svg);
+    position: relative;
+    top: 10px;
+    margin: 0px 10px 0px 0px;
+}
+
+.footer__button a:nth-child(2)::before {
+    content: url(../img/Icons/Sketch_Logo\ 1.svg);
+    position: relative;
+    top: 10px;
+    margin: 0px 10px 0px 0px;
+}
+
+.footer__bold {
+    font-weight: 900;
+}
+
+.footer__subtitle {
+    margin: 86px 0px 0px 0px;
+}
+
+.footer__subtitle-item {
+    font-family: 'Motter Corpus Std', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer__subscripton {
+    margin: 8px 0px 0px 0px;
+
+}
+
+.footer__subscripton-item {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button {
+    transition:  box-shadow 1s;
+    box-shadow: 0px 0px 0px 0px rgb(68, 68, 68);
+ }
+
+ .button:hover {
+    box-shadow: 0px 0px 10px 4px rgb(68, 68, 68);
+    transition: all 0.5s;
+  }
+
+
+@media (max-width: 576px) {
+    .page-fifth__paragraph {
+        padding: 0px 0px 30%;
+    }
+    .footer__flex-wrapper {
+        flex-direction: column;
+        max-width: 260px;
+        margin: 0px auto;
+    }
+    .footer__flex-wrapper a:nth-child(1){
+        margin: 0px 0px 20px 0px;
+        padding: 11px 38px 21px;
+    }
+    .footer__flex-wrapper a:nth-child(2){
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-sixth__main-flex-row {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+    .page-sixth__flex-row_column {
+        text-align: center;
+    }
+    .page-third__media {
+        display: none;
+    }
+    .page-third__container {
+        padding: 0px 5%;
+    }
+    .page-first__title {
+        font-size: 70px;
+    }
+    .page-first__title-item {
+        line-height: 70px;
+    }
+    .page-second__title-item {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .page-second {
+        padding: 100px 0px;
+    }
+    .page-first__wrapper {
+        background: url(../img/Unicorns/unicorn.png) center bottom/ auto 100% no-repeat;
+        min-height: 300px;
+        padding-top: 98px;
+    }
+    .footer__title-item {
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 96px;
+        font-family: 'Motter Corpus Std', sans-serif;
+    }
+    .page-seventh__title-item {
+        font-size: 50px;
+    }
+    .page-sixth__title-item {
+        font-size: 50px;
+    }
+    .page-fifth__title-item {
+        font-size: 60px;
+    }
+    .page-fourth__title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .page-third__title-item {
+        font-size: 50px;
+    }
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+        z-index: 5;
+    }
+    .header__burger span,
+    .header__burger::before,
+    .header__burger::after {
+        background-color: #0B4141;
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::before,
+    .header__burger::after {
+        content: '';
+    }
+    .header__burger::before {
+        top: 0;
+    }
+    .header__burger::after {
+        bottom: 0;
+    }
+    .header__burger span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+    .header__burger._active span {
+        transform: scale(0) translate(0px, -50%);
+    }
+    .header__burger._active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+    .header__burger._active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+    .header__list  {
+        transition: top 0.3s ease 0s;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #FFCCBC;
+        display: block;
+        padding: 70px 0px 0px 0px;
+        z-index: 3;
+        overflow: auto;
+        text-align: center;
+    }
+    .header__list._active {
+        top: 0;
+    } 
+    .header__list._active::before {
+        content: "";
+        background-color: #FFFFFF;
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        z-index: 6;
+    }
+    .header__menu a{
+        width: 100%;
+        border-top: 3px solid #0B4141;
+        display: block;
+        font-size: 30px;
+        padding: 10px 0px;
+    }
+    .header__menu a:last-child {
+        border-bottom: 3px solid #0B4141;  
+    }
+    .header__button-item {
+        margin: 50px 0px;
+        font-size: 30px;
+    }
+    .page-sixth__spoiler {
+        transition: all 0.3s ease 0s;
+        display: block;
+    }
+    .page-sixth__arrow {
+        transition: all 0.3s ease 0s;
+    }
+    .hiden {
+        display: none;
+    }
+    .hiden._active {
+        display: block;
+        animation: 1s show ease;
+    }
+    @keyframes show {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+}
+
+@media (max-width: 1200px) {
+    .page-fourth__flex-row {
+        flex-direction: column;
+    }
+    .page-seventh__flex-row {
+        flex-direction: column;
+    }
+    .page-fourth__img-unicorn_pink {
+        padding: 0px 0px 60px 0px;
+    }
+    .page-fourth__img-unicorn_green {
+        padding: 60px 0px 0px 0px;
+    }
+    .page-seventh__img-unicorn {
+        margin-left: 0px;
+    }
+    .page-seventh__img-circles {
+        margin-right: 0px;
+    }
+}
+
